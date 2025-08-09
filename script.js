@@ -4,7 +4,7 @@ const files = [
     "Git_Installation_and_basic_configuration.md", 
     "Repository_basics.md",
     "Branching_&_Merging.md",
-    "Remote,_Push,_Pull,.md",
+    "Remote,_Push,_Pull.md",
     "Undoing_Changes.md",
     "Tracking_Branches_&_Upstream.md",
     "Fork_Syncing.md",
