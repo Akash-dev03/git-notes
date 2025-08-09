@@ -6,22 +6,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>📚 Git Notes</h1>
-    <p>Select a note to view it in beautiful GitHub style:</p>
-    <ul id="file-list"></ul>
+    <div class="container">
+      <h1>📚 Git Notes</h1>
+      <p class="subtitle">
+        Explore Git concepts with clean GitHub-style formatting
+      </p>
 
-    <h2>🎮 Git Treasure Hunt</h2>
-    <p>
-      Download and unzip <strong>git-hunt.zip</strong>. Run
-      <code>git init</code> to make the repo usable. Your task: find the commit
-      containing the hidden flag.
-    </p>
-    <ul>
-      <li><code>git log</code> – View commit history</li>
-      <li><code>git checkout &lt;commit&gt;</code> – Move to a commit</li>
-      <li><code>git show &lt;commit&gt;</code> – View commit content</li>
-    </ul>
-    <a href="GitTreasureHunt.zip" download class="btn">⬇ Download Game</a>
+      <div class="card">
+        <h2>📄 Notes</h2>
+        <ul id="file-list"></ul>
+      </div>
+
+      <div class="card">
+        <h2>🎮 Git Treasure Hunt</h2>
+        <p>
+          Download and unzip <strong>git-hunt.zip</strong>. Run
+          <code>git init</code> to make the repo usable. Your task: find the
+          commit containing the hidden flag.
+        </p>
+        <ul>
+          <li><code>git log</code> – View commit history</li>
+          <li><code>git checkout &lt;commit&gt;</code> – Move to a commit</li>
+          <li><code>git show &lt;commit&gt;</code> – View commit content</li>
+        </ul>
+        <a href="GitTreasureHunt.zip" download class="btn">⬇ Download Game</a>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>

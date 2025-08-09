@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <title>View Note</title>
     <link rel="stylesheet" href="github-markdown.css" />
+    <link rel="stylesheet" href="style.css" />
     <style>
       body {
         display: flex;
         justify-content: center;
-        background: #f6f8fa;
+        background: #0d1117;
         padding: 20px;
       }
       .markdown-body {
@@ -16,8 +17,14 @@
         min-width: 200px;
         max-width: 900px;
         padding: 45px;
-        background: white;
+        background: #161b22;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
+      .markdown-body pre {
+        background: #0d1117 !important;
         border-radius: 6px;
+        padding: 10px;
       }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
