@@ -2,34 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Git Notes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>📚 Git Notes</h1>
-      <p class="subtitle">
-        Explore Git concepts with clean GitHub-style formatting
-      </p>
+      <header class="main-header">
+        <h1>📚 Git Notes</h1>
+        <p class="subtitle">
+          Explore Git concepts with clean GitHub-style formatting
+        </p>
+      </header>
 
       <div class="card">
         <h2>📄 Notes</h2>
-        <ul id="file-list"></ul>
+        <div class="notes-grid">
+          <ol id="file-list" class="notes-list"></ol>
+        </div>
       </div>
 
       <div class="card">
         <h2>🎮 Git Treasure Hunt</h2>
-        <p>
+        <p class="treasure-description">
           Download and unzip <strong>git-hunt.zip</strong>. Run
           <code>git init</code> to make the repo usable. Your task: find the
           commit containing the hidden flag.
         </p>
-        <ul>
-          <li><code>git log</code> – View commit history</li>
-          <li><code>git checkout &lt;commit&gt;</code> – Move to a commit</li>
-          <li><code>git show &lt;commit&gt;</code> – View commit content</li>
-        </ul>
-        <a href="GitTreasureHunt.zip" download class="btn">⬇ Download Game</a>
+        <div class="command-list">
+          <div class="command-item">
+            <code>git log</code>
+            <span>View commit history</span>
+          </div>
+          <div class="command-item">
+            <code>git checkout &lt;commit&gt;</code>
+            <span>Move to a commit</span>
+          </div>
+          <div class="command-item">
+            <code>git show &lt;commit&gt;</code>
+            <span>View commit content</span>
+          </div>
+        </div>
+        <div class="download-section">
+          <a href="GitTreasureHunt.zip" download class="btn">
+            <span class="btn-icon">⬇</span>
+            Download Game
+          </a>
+        </div>
       </div>
     </div>
 
