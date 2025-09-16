@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Merge Wars - Git Games</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <a href="games.html" class="back-link">← Back to Games</a>
+        <h1>⚔️ The Merge Wars</h1>
+        <p class="subtitle">
+          Join the rebel dev team in this GitHub collaboration battle
+        </p>
+      </header>
+
+      <div class="card game-details-card">
+        <div class="game-header">
+          <div class="game-meta">
+            <span class="difficulty-badge difficulty-intermediate">Intermediate</span>
+            <span class="time-badge">20-45 minutes</span>
+            <span class="type-badge">GitHub</span>
+          </div>
+        </div>
+
+        <div class="game-description">
+          <h2>🎯 Mission Briefing</h2>
+          <p>The galaxy is at war, and the rebel alliance needs skilled developers! Your mission is to join a team, contribute to the rebellion's codebase through GitHub, and prove your collaboration skills in this fast-paced race.</p>
+          
+          <h3>What You'll Learn:</h3>
+          <ul>
+            <li>Forking repositories on GitHub</li>
+            <li>Cloning your fork locally</li>
+            <li>Creating and managing branches</li>
+            <li>Making commits and pushing changes</li>
+            <li>Creating professional pull requests</li>
+            <li>Collaborative workflow best practices</li>
+          </ul>
+        </div>
+
+        <div class="instructions-section">
+          <h2>📋 Battle Instructions</h2>
+          
+          <div class="step-group">
+            <div class="step-item">
+              <div class="step-number">Step 1</div>
+              <div class="step-content">
+                <strong>Fork the rebellion repository:</strong>
+                <p>Go to the <a href="https://github.com/05Akash/merge-wars-git-game.git" target="_blank" class="repo-link">GitHub repository</a> and click "Fork" to create your personal copy of the rebellion's codebase.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 2</div>
+              <div class="step-content">
+                <strong>Clone your fork to your local machine:</strong>
+                <code>git clone https://github.com/YOUR-USERNAME/merge-wars-git-game.git</code>
+                <p>Replace YOUR-USERNAME with your actual GitHub username.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 3</div>
+              <div class="step-content">
+                <strong>Create a new branch for your contribution:</strong>
+                <code>git checkout -b add-my-name</code>
+                <p>Always work on a separate branch to keep your changes organized.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 4</div>
+              <div class="step-content">
+                <strong>Add your rebel profile:</strong>
+                <p>Edit the <code>contributors.html</code> file to add your name, GitHub username, and your favorite Git command. Follow the existing format!</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 5</div>
+              <div class="step-content">
+                <strong>Commit your changes:</strong>
+                <code>git add . && git commit -m "Add [YOUR-NAME] to the rebellion"</code>
+                <p>Make sure your commit message is clear and descriptive.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 6</div>
+              <div class="step-content">
+                <strong>Push your branch to your fork:</strong>
+                <code>git push origin add-my-name</code>
+                <p>This uploads your changes to your GitHub fork.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 7</div>
+              <div class="step-content">
+                <strong>Create a Pull Request:</strong>
+                <p>Go to your fork on GitHub and click "Compare & Pull Request". Write a good description of your contribution!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="commands-reference">
+          <h2>🔧 GitHub Workflow Commands</h2>
+          <div class="command-grid">
+            <div class="command-item">
+              <code>git clone &lt;url&gt;</code>
+              <span>Download repository to local machine</span>
+            </div>
+            <div class="command-item">
+              <code>git checkout -b &lt;branch&gt;</code>
+              <span>Create and switch to new branch</span>
+            </div>
+            <div class="command-item">
+              <code>git add .</code>
+              <span>Stage all changes for commit</span>
+            </div>
+            <div class="command-item">
+              <code>git commit -m "message"</code>
+              <span>Create commit with message</span>
+            </div>
+            <div class="command-item">
+              <code>git push origin &lt;branch&gt;</code>
+              <span>Upload branch to remote repository</span>
+            </div>
+            <div class="command-item">
+              <code>git status</code>
+              <span>Check current repository status</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-section">
+          <a href="https://github.com/05Akash/merge-wars-git-game.git" target="_blank" class="btn btn-war">
+            <span class="btn-icon">⚔️</span>
+            Join The Battle
+          </a>
+          <div class="download-info">
+            <p>Requirements: GitHub account, Git installed | Online multiplayer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card scoring-card">
+        <h2>🏆 Scoring & Victory Conditions</h2>
+        <div class="scoring-grid">
+          <div class="score-item">
+            <div class="score-icon">⚡</div>
+            <h3>Speed Bonus</h3>
+            <p>Complete all steps in under 20 minutes for extra points!</p>
+          </div>
+          <div class="score-item">
+            <div class="score-icon">📝</div>
+            <h3>Quality Commit</h3>
+            <p>Clear, descriptive commit messages earn bonus points.</p>
+          </div>
+          <div class="score-item">
+            <div class="score-icon">🎯</div>
+            <h3>Clean PR</h3>
+            <p>Well-formatted pull requests with good descriptions win!</p>
+          </div>
+          <div class="score-item">
+            <div class="score-icon">🤝</div>
+            <h3>Team Player</h3>
+            <p>Help review others' PRs to become a collaboration master!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card tips-card">
+        <h2>💡 Battle Strategies</h2>
+        <div class="tips-grid">
+          <div class="tip-item">
+            <div class="tip-icon">🎯</div>
+            <h3>Follow the Template</h3>
+            <p>Check existing entries in contributors.html and follow the same format exactly.</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">📝</div>
+            <h3>Write Good Commits</h3>
+            <p>Use present tense, be specific: "Add John Doe to contributors list"</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🔍</div>
+            <h3>Review Before Push</h3>
+            <p>Use <code>git diff</code> to review your changes before committing.</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🚀</div>
+            <h3>Branch Naming</h3>
+            <p>Use descriptive branch names like "add-john-doe" or "feature/contributor-profile"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/games.js"></script>
+  </body>
+</html>

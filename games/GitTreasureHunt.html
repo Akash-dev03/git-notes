@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Git Treasure Hunt - Git Games</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <a href="games.html" class="back-link">← Back to Games</a>
+        <h1>🕵️ Git Treasure Hunt</h1>
+        <p class="subtitle">
+          Navigate through commit history to find the hidden treasure
+        </p>
+      </header>
+
+      <div class="card game-details-card">
+        <div class="game-header">
+          <div class="game-meta">
+            <span class="difficulty-badge difficulty-beginner">Beginner</span>
+            <span class="time-badge">15-30 minutes</span>
+            <span class="type-badge">Command Line</span>
+          </div>
+        </div>
+
+        <div class="game-description">
+          <h2>🎯 Mission Objective</h2>
+          <p>You've discovered an old Git repository that contains a hidden treasure! Your mission is to navigate through the commit history using Git commands to find the commit that contains the secret flag.</p>
+          
+          <h3>What You'll Learn:</h3>
+          <ul>
+            <li>Understanding Git commit history</li>
+            <li>Using <code>git log</code> to explore commits</li>
+            <li>Navigating to specific commits with <code>git checkout</code></li>
+            <li>Examining commit contents with <code>git show</code></li>
+          </ul>
+        </div>
+
+        <div class="instructions-section">
+          <h2>📋 Instructions</h2>
+          
+          <div class="step-group">
+            <div class="step-item">
+              <div class="step-number">Step 1</div>
+              <div class="step-content">
+                <strong>Download the treasure hunt repository:</strong>
+                <p>Download and extract the zip file to get started with the treasure hunt.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 2</div>
+              <div class="step-content">
+                <strong>Initialize the repository:</strong>
+                <code>git init</code>
+                <p>Make the extracted folder a proper Git repository.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 3</div>
+              <div class="step-content">
+                <strong>Explore the commit history:</strong>
+                <code>git log --oneline</code>
+                <p>View all commits in a condensed format to see the repository's history.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 4</div>
+              <div class="step-content">
+                <strong>Investigate suspicious commits:</strong>
+                <code>git show &lt;commit-hash&gt;</code>
+                <p>Look for commits with interesting messages or changes that might contain clues.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 5</div>
+              <div class="step-content">
+                <strong>Navigate to specific commits:</strong>
+                <code>git checkout &lt;commit-hash&gt;</code>
+                <p>Time travel to different points in history to examine the repository state.</p>
+              </div>
+            </div>
+            
+            <div class="step-item">
+              <div class="step-number">Step 6</div>
+              <div class="step-content">
+                <strong>Find the treasure:</strong>
+                <p>Look for hidden files, secret messages, or special content that contains the flag!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="commands-reference">
+          <h2>🔧 Essential Commands</h2>
+          <div class="command-grid">
+            <div class="command-item">
+              <code>git log</code>
+              <span>View complete commit history</span>
+            </div>
+            <div class="command-item">
+              <code>git log --oneline</code>
+              <span>Condensed commit history</span>
+            </div>
+            <div class="command-item">
+              <code>git show &lt;commit&gt;</code>
+              <span>View commit details and changes</span>
+            </div>
+            <div class="command-item">
+              <code>git checkout &lt;commit&gt;</code>
+              <span>Navigate to specific commit</span>
+            </div>
+            <div class="command-item">
+              <code>ls -la</code>
+              <span>List all files (including hidden)</span>
+            </div>
+            <div class="command-item">
+              <code>cat &lt;filename&gt;</code>
+              <span>Display file contents</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="download-section">
+          <a href="../games/GitTreasureHunt.zip" download class="btn">
+            <span class="btn-icon">⬇️</span>
+            Download Treasure Hunt
+          </a>
+          <div class="download-info">
+            <p>File size: ~500KB | Requirements: Git installed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card tips-card">
+        <h2>💡 Pro Tips</h2>
+        <div class="tips-grid">
+          <div class="tip-item">
+            <div class="tip-icon">🔍</div>
+            <h3>Look for Patterns</h3>
+            <p>Pay attention to commit messages and timestamps - they often contain hints!</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">📁</div>
+            <h3>Check Hidden Files</h3>
+            <p>Use <code>ls -la</code> to reveal hidden files that might contain the treasure.</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🕒</div>
+            <h3>Timeline Matters</h3>
+            <p>The treasure might be hidden in an older commit, not necessarily the latest one.</p>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🎯</div>
+            <h3>Read Everything</h3>
+            <p>Examine file contents carefully - the flag might be embedded within regular text.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/games.js"></script>
+  </body>
+</html>
