@@ -2,26 +2,26 @@
 
 // Ordered list of markdown files with better organization
 const files = [
-  "notes/What_is_Git.md",
-  "notes/Git_Installation_and_basic_configuration.md",
-  "notes/Repository_basics.md",
-  "notes/Branching_&_Merging.md",
-  "notes/Remote_Push_Pull.md",
-  "notes/Undoing_Changes.md",
-  "notes/Tracking_Branches_&_Upstream.md",
-  "notes/Fork_Syncing.md",
-  "notes/git_rebase.md",
-  "notes/Git_Stash.md",
-  "notes/Git_Reflog.md",
-  "notes/Git_Cherry-pick.md",
-  "notes/Git_Submodules.md",
-  "notes/git_worktree.md"
+  "../notes/What_is_Git.md",
+  "../notes/Git_Installation_and_basic_configuration.md",
+  "../notes/Repository_basics.md",
+  "../notes/Branching_&_Merging.md",
+  "../notes/Remote_Push_Pull.md",
+  "../notes/Undoing_Changes.md",
+  "../notes/Tracking_Branches_&_Upstream.md",
+  "../notes/Fork_Syncing.md",
+  "../notes/git_rebase.md",
+  "../notes/Git_Stash.md",
+  "../notes/Git_Reflog.md",
+  "../notes/Git_Cherry-pick.md",
+  "../notes/Git_Submodules.md",
+  "../notes/git_worktree.md"
 ];
 
 // Format filename for display
 function formatFileName(filename) {
   return filename
-    .replace(/^notes\//, "")      // remove "notes/" folder
+    .replace(/^\.\.\/notes\//, "")      // remove "../notes/" folder
     .replace(/\.md$/, "")         // remove ".md"
     .replace(/_/g, " ")           // replace underscores with spaces
     .replace(/,/g, ", ")          // add space after commas
